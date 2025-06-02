@@ -1,0 +1,42 @@
+/*
+Mark White
+CSD430
+Assignment2
+*/
+
+@charset "UTF-8";
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #1e3d59;
+}
+
+.caption {
+    text-align: center;
+    font-style: italic;
+    margin: 10px 0;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #dceefb;
+}
