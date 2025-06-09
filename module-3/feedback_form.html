@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Restaurant Experience Feedback</title>
+	<link rel="stylesheet" type="text/css"> 
+</head>
+<body>
+	<h2> Restaurant Experience Form</h2>
+	<form action="feedback_result.jsp" method="post">
+		<!-- User Name -->
+		<label for="name">Full Name:</label><br>
+		<input type="text" id="name" name="name" required><br><br>
+		
+		<!-- Email Address -->
+		<label for="email">Email Address:</label><br>
+		<input type="email" id="email" name="email" required><br><br>
+		
+		<!-- Date Visited -->
+		<label for="visitDate"> Date of Vist:</label>
+		<input type="date" id="visitDate" name="visitDate" required><br><br>
+		
+		<!-- Rating -->
+        <label for="rating">Overall Experience (1-5):</label><br>
+        <select id="rating" name="rating">
+            <option value="1">1 - Poor</option>
+            <option value="2">2</option>
+            <option value="3">3 - Neutral</option>
+            <option value="4">4</option>
+            <option value="5">5 - Excellent</option>
+        </select><br><br>
+        
+        <!-- Text feedback -->
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="40"></textarea><br><br>
+
+        <input type="submit" value="Submit Feedback">
+	</form>
+</body>
+</html>
